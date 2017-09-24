@@ -247,6 +247,6 @@
 	<key>type</key>
 	<string>Window Settings</string>
 	<key>warnOnShellCloseAction</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
