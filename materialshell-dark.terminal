@@ -155,6 +155,10 @@
 	Y2hpdmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhOW2KPkZOYo6y0t8DS1doAAAAAAAABAQAA
 	AAAAAAAZAAAAAAAAAAAAAAAAAAAA3A==
 	</data>
+	<key>Bell</key>
+	<true/>
+	<key>BellBounceCritical</key>
+	<true/>
 	<key>CursorBlink</key>
 	<true/>
 	<key>CursorColor</key>
@@ -188,10 +192,26 @@
 	dmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhOW2KMjpCVoKmxtL3P0tcAAAAAAAABAQAAAAAA
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
+	<key>ShowCommandKeyInTitle</key>
+	<false/>
 	<key>ShowComponentsWhenTabHasCustomTitle</key>
 	<true/>
-	<key>ShowTTYNameInTabTitle</key>
+	<key>ShowDimensionsInTitle</key>
 	<true/>
+	<key>ShowRepresentedURLInTabTitle</key>
+	<true/>
+	<key>ShowRepresentedURLInTitle</key>
+	<false/>
+	<key>ShowRepresentedURLPathInTitle</key>
+	<false/>
+	<key>ShowShellCommandInTitle</key>
+	<false/>
+	<key>ShowTTYNameInTabTitle</key>
+	<false/>
+	<key>ShowTTYNameInTitle</key>
+	<false/>
+	<key>ShowWindowSettingsNameInTitle</key>
+	<false/>
 	<key>TextBoldColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -212,15 +232,21 @@
 	</data>
 	<key>UseBrightBold</key>
 	<true/>
+	<key>WindowTitle</key>
+	<string>ターミナル</string>
 	<key>columnCount</key>
 	<integer>95</integer>
 	<key>name</key>
 	<string>materialshell-dark</string>
+	<key>noWarnProcesses</key>
+	<array/>
 	<key>rowCount</key>
 	<integer>25</integer>
 	<key>shellExitAction</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>type</key>
 	<string>Window Settings</string>
+	<key>warnOnShellCloseAction</key>
+	<integer>2</integer>
 </dict>
 </plist>
